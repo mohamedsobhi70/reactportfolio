@@ -1,0 +1,115 @@
+.portfolio.container {
+  padding-bottom: 40px;
+}
+.portfolio .portfolio-filter {
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.portfolio .portfolio-filter button {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0 10px;
+  color: #302e4d;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+  padding-bottom: 2px;
+  transition: all 0.5s ease;
+}
+.portfolio .portfolio-item {
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-bottom: 30px;
+  transition: all 0.5s ease;
+}
+.portfolio .portfolio-item:hover {
+  transform: scale3d(1, 1, 1.5);
+}
+.portfolio .portfolio-item.hide {
+  display: none;
+}
+.portfolio .portfolio-item.show {
+  display: block;
+  animation: showitem 0.5s ease;
+}
+@keyframes showitem {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.portfolio .portfolio-item .portfolio-item-inner {
+  border: 6px solid #fdf9ff;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+.portfolio .portfolio-item .portfolio-item-inner .portfolio-img img {
+  width: 100%;
+  display: block;
+  height: 320px;
+}
+.portfolio .portfolio-item .portfolio-info {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 1;
+  padding: 30px;
+  transition: all 0.5s ease;
+
+  opacity: 0;
+}
+.portfolio .portfolio-item .portfolio-item-inner:hover .portfolio-info {
+  opacity: 1;
+}
+.portfolio .portfolio-item .portfolio-info h4 {
+  transition: all 0.5s ease;
+  transform: translateX(-20px);
+  opacity: 0;
+}
+.portfolio .portfolio-item .portfolio-info h4 a {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.portfolio .portfolio-item .portfolio-item-inner:hover .portfolio-info h4 {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+.portfolio .portfolio-item .portfolio-info .icon {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 50%;
+  left: 30px;
+  bottom: 30px;
+  position: absolute;
+  transition: all 0.5s ease;
+  transform: translateX(20px);
+  opacity: 0;
+}
+.portfolio .portfolio-item:hover .portfolio-info .icon {
+  transform: translateX(0px);
+  opacity: 1;
+}
+.portfolio .portfolio-item .portfolio-info .icon .fa {
+  line-height: 40px;
+}

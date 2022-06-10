@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/*  */
+
+::before,
+::after {
+  box-sizing: border-box;
+}
+.section {
+  background-color: #f2f2fc;
+  min-height: 100vh;
+  display: block;
+  padding: 0 30px;
+  position: fixed;
+  top: 0;
+  left: 270px;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  opacity: 1;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: all 0.5s ease;
+}
+.section.back {
+  z-index: -1;
+}
+
+.section .container {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+.section-title {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 60px;
+  text-transform: capitalize;
+}
+.section-title h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #302e4d;
+  margin: 0;
+  position: relative;
+}
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 40px;
+  height: 4px;
+}
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 25px;
+  height: 4px;
+  margin-top: 8px;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  position: relative;
+}
+.btn {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 35px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 40px;
+  display: inline-block;
+  white-space: nowrap;
+  transition: all 0.5s ease;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  transform: scale(1.07);
+  cursor: pointer;
+}
+.padding-15 {
+  padding: 0 15px;
+}
+
+.main-content {
+  padding-left: 270px;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+  width: 100%;
+}
+.shadow-dark {
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+.hidden {
+  display: none !important;
+}
+.aside .logo a::before {
+  border-top: 4px solid #ec1839;
+  border-right: 4px solid #ec1839;
+}
+.aside .logo a::after {
+  border-bottom: 4px solid #ec1839;
+  border-left: 4px solid #ec1839;
+}
+.blog .blog-item-inner .blog-info .blog-tags a,
+.contact .contact-info-item .icon .fa,
+.portfolio .portfolio-item .portfolio-info .icon .fa,
+.lightbox .lightbox-controls .prev .fa,
+.lightbox .lightbox-controls .next .fa,
+.portfolio .portfolio-filter button.active,
+body.dark .portfolio .portfolio-filter button.active,
+.service .service-item .service-item-inner .icon .fa,
+.about .about-content .about-text h3 span,
+.home .intro .social-links a i,
+.aside .nav li a:hover,
+.aside .nav li a.active,
+body.dark .aside .nav li a:hover,
+body.dark .aside .nav li a.active {
+  color: #ec1839;
+}
+.btn,
+.blog .blog-item-inner .blog-img .blog-date,
+.about .skills .skill-item .progress .progress-in,
+.about .about-content .timeline .circule-dot,
+.about .about-content .timeline .timeline-item::before,
+.section-title h2::before,
+.section-title h2::after,
+.aside .nav-toggler span,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after,
+.service .service-item .service-item-inner:hover .icon {
+  background-color: #ec1839;
+}
+.portfolio .portfolio-filter button.active,
+.home .intro img,
+.portfolio .portfolio-item .portfolio-item-inner:hover {
+  border-color: #ec1839 !important;
+}
+
+/*  */

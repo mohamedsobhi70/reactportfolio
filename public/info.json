@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "ProjectName": "Yallakora",
+      "img": "images/yallakora-min.webp",
+      "link": "https://mohamedsobhi70.github.io/tripalong/hotel",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
+    },
+    {
+      "id": 2,
+      "ProjectName": "Elctro",
+      "img": "./images/Elctro-min.webp",
+      "link": "https://mohamedsobhi70.github.io/tripalong/hotel",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
+    },
+    {
+      "id": 3,
+      "ProjectName": "Tripalong",
+      "img": "./images/tripalong.png",
+      "link": "https://mohamedsobhi70.github.io/tripalong/hotel",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
+    }
+  ]
+}

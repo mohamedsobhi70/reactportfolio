@@ -1,0 +1,40 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+}
+.home .intro {
+  text-align: center;
+}
+.home .intro img {
+  height: 400px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.home .intro h1 {
+  font-size: 30px;
+  color: #302e4d;
+  font-weight: 700;
+  margin: 20px 0 5px;
+}
+
+.home .intro p {
+  color: #504e70;
+  font-size: 16px;
+  font-size: 500;
+  margin: 0;
+  line-height: 22px;
+}
+.home .intro .social-links {
+  margin: 40px 0;
+}
+.home .intro .social-links a {
+  padding-left: 20px;
+}
+.home .intro .social-links a i {
+  transition: all 0.5s ease;
+  text-align: center;
+  display: inline-block;
+}
+.home .intro .social-links a i:hover {
+  opacity: 0.5;
+}
